@@ -12,9 +12,10 @@ namespace N1ghtMap
     }
 
 
-    public class HashMap<T, E>
+    public class HashMap<T, V>
     {
         private List<T> m_array;
+
         public HashMap()
         {
             m_array = new List<T>();
@@ -25,6 +26,19 @@ namespace N1ghtMap
             m_array = new List<T>(size);
         }
 
-        
+        private int GetHashIndex(T key)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Add(T key, V value)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Remove(T key)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
